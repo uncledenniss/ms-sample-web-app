@@ -25,4 +25,4 @@
 sudo apt-get update -y 
 sudo apt-get upgrade -y
 sudo apt-get install -y nginx
-echo "Hello World from host checking to see if customScript ran Dennis" $HOSTNAME "!" | sudo tee -a /var/www/html/index.html
+echo "Hello World from host checking to see if customScript ran Dennis CLI updates matter too" $HOSTNAME "!" | sudo tee -a /var/www/html/index.html
